@@ -1,17 +1,17 @@
 #define _CRT_SECURE_NO_WARNINGS 1
 #include <stdio.h>
 #include <string.h>
-//×Ö·û´®¾ÍÊÇÒ»´®×Ö·û-ÓÃË«ÒıºÅÀ¨ÆğÀ´µÄÒ»´®×Ö·û
+//å­—ç¬¦ä¸²å°±æ˜¯ä¸€ä¸²å­—ç¬¦-ç”¨åŒå¼•å·æ‹¬èµ·æ¥çš„ä¸€ä¸²å­—ç¬¦
 int main()
 {
 //    char arr[] = "hello";
-    //×Ö·û´®ÔÚ½áÎ²Î»ÖÃÒş²ØÒ»¸ö\0×Ö·û£¬\0ÊÇ×Ö·û´®½áÊø±êÖ¾
+    //å­—ç¬¦ä¸²åœ¨ç»“å°¾ä½ç½®éšè—ä¸€ä¸ª\0å­—ç¬¦ï¼Œ\0æ˜¯å­—ç¬¦ä¸²ç»“æŸæ ‡å¿—
     char arr1[] = "abc";
     char arr2[] = { 'a','b','c'};
     //printf("%s\n", arr1);
     //printf("%s\n", arr2);
-    //Çó×Ö·û´®³¤¶È
-    //int len = strlen("abc");//string(×Ö·û´®) lengthÍ·ÎÄ¼ş#include <string.h>
+    //æ±‚å­—ç¬¦ä¸²é•¿åº¦
+    //int len = strlen("abc");//string(å­—ç¬¦ä¸²) lengthå¤´æ–‡ä»¶#include <string.h>
     //printf("%d\n", len);
     printf("%d\n", strlen(arr1));
     printf("%d\n", strlen(arr2));
